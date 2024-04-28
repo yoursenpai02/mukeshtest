@@ -313,7 +313,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=https://t.me/villan_community)]]
+                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/villan_community")]]
                 ),
             )
 
@@ -376,7 +376,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
          
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ", url=https://t.me/villan_community"
+                            text="🚩sᴜᴩᴩᴏʀᴛ", url="https://t.me/villan_community"
                         ),
                         InlineKeyboardButton(
                             text="ᴄᴏᴍᴍᴀɴᴅs 💁", callback_data="Main_help"
