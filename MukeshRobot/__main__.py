@@ -641,9 +641,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
                     ],
                      [
-                        InlineKeyboardButton(text="• BROADCAST •", callback_data="broadcast_help")
+                        InlineKeyboardButton(text="• BROADCAST •", callback_data="Main_help")
                   
-                        InlineKeyboardButton(text="• AUTH •", callback_data="auth_help")
+                        InlineKeyboardButton(text="• AUTH •", callback_data="Main_help")
                     ],
                 ]
             ),
