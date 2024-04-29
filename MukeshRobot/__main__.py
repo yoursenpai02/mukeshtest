@@ -800,7 +800,14 @@ elif query.data == "Broadcast_help":
                 ]
             ),
         )
+ elif query.data == "Music_back":
+        first_name = update.effective_user.first_name
+        query.message.edit_caption(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
+            reply_markup=InlineKeyboardMarkup(buttons),
+            parse_mode=ParseMode.MARKDOWN,
+            timeout=60,
 
+        )
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
     args = update.effective_message.text.split(None, 1)
