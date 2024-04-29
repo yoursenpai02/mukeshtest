@@ -641,9 +641,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
                     ],
                      [
-                        InlineKeyboardButton(text="• BROADCAST •", callback_data="broadcast_help"),
+                        InlineKeyboardButton(text="• BROADCAST •", callback_data="Broadcast_help"),
                   
-                        InlineKeyboardButton(text="• AUTH •", callback_data="auth_help")
+                        InlineKeyboardButton(text="• AUTH •", callback_data="Auth_help")
                     ],
                 ]
             ),
@@ -757,7 +757,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
 
         )
 
-elif query.data == "auth_help":
+elif query.data == "Auth_help":
         query.message.edit_caption(f"*» ᴀᴜᴛʜ ᴜsᴇʀs : «*"
             f"""
 
@@ -778,7 +778,7 @@ elif query.data == "auth_help":
             ),
         )
 
-elif query.data == "broadcast_help":
+elif query.data == "Broadcast_help":
         query.message.edit_caption(f"*» ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] : «*"
             f"""
 
